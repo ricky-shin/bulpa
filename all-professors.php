@@ -1,24 +1,14 @@
-<?php
-// MySQL Information
-$servername = "localhost:8889";
-$username = "root";
-$password = "root";
-$dbname = "main_DB";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+<?php 
+    include 'config.php'; 
+    include 'head.php';
+    include 'nav.php';
 ?>
-<?php include 'head.php'; ?>
 
 <!-- Styles -->
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <div id="app">
-<?php include 'nav.php'; ?>
 <div class="container pt-3">
     <div class="row">
     <?php include 'left-menu.php' ?>

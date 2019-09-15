@@ -1,10 +1,12 @@
-<?php include 'head.php'; ?>
+<?php 
+    include 'head.php'; 
+    include 'nav.php';
+    ?>
 <!-- Styles -->
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <div id="app">
-<?php include 'nav.php'; ?>
 <div class="container pt-3">
     <div class="row">
     <?php include 'left-menu.php' ?>
