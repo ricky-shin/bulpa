@@ -1,5 +1,5 @@
 <?php 
-    include 'config.php'; 
+    //include 'config.php'; 
     include 'head.php';
     include 'nav.php';
 ?>
@@ -13,22 +13,53 @@
     <div class="row">
     <?php include 'left-menu.php' ?>
         <div class="col-9">
-<?php
-$sql = "SELECT * FROM professors";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    echo "<thead><table class=\"table table-striped table-bordered table-hover\"><tr><th scope=\"col\">Professor ID</th><th scope=\"col\">First Name</th><th scope=\"col\">Last Name</th></tr></thead>";
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<tr><td>".$row["id"]."</td><td>".$row["fname"]."</td><td> ".$row["lname"]."</td></tr>";
-    }
-    echo "</table>";
-} else {
-    echo "0 results";
-}
-$conn->close();
-?>
+        <div id="search_area">
+            <input type="text" name="professor_search" id="professor_search" class="form-control input-lg" autocomplete="off" placeholder="Type Professor Name" />
+        </div>
+        <br />
+        <div id="professor_data"></div>
+        <script>
+            $(document).ready(function(){
+            
+            load_data('');
+            
+            function load_data(query, typehead_search = 'yes')
+            {
+            $.ajax({
+            url:"fetch.php",
+            method:"POST",
+            data:{query:query, typehead_search:typehead_search},
+            success:function(data)
+            {
+                $('#professor_data').html(data);
+            }
+            });
+            }
+            
+            $('#professor_search').typeahead({
+            source: function(query, result){
+            $.ajax({
+                url:"fetch.php",
+                method:"POST",
+                data:{query:query},
+                dataType:"json",
+                success:function(data){
+                result($.map(data, function(item){
+                return item;
+                }));
+                load_data(query, 'yes');
+                }
+            });
+            }
+            });
+            
+            $(document).on('click', 'li', function(){
+            var query = $(this).text();
+            load_data(query);
+            });
+            
+            });
+        </script>
         </div>
     </div>
 </div>

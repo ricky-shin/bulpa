@@ -4,7 +4,7 @@ echo '
 <button type="button" class="btn btn-outline-primary btn-lg">Write a Review</button>
 <div class="list-group pt-3">
 <a href="/all-professors.php" class="list-group-item list-group-item-action">All Professors</a>
-<a href="#" class="list-group-item list-group-item-action">Departments</a>
+<a href="/departments.php" class="list-group-item list-group-item-action">Departments</a>
 <a href="#" class="list-group-item list-group-item-action">Pre-Zicklin Courses</a>
 <a href="#" class="list-group-item list-group-item-action">Zicklin Courses</a>
 </div>
