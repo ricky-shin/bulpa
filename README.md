@@ -11,8 +11,7 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
-* write-review.php textarea not POSTing, why? Also require all fields to be, well, required.
-* add reCaptcha in write.review.php to (hopefully) prevent spam
+* write-review.php require all fields to be, well, required. Add reCaptcha as well.
 * Let "Department" column in all-professors.php to show dname string, not the assigned internal ID.
 * Pre-Zicklin Courses page (query reviews table where course = the pre-zick courses & isApproved = 1 [True])
 * Zicklin Courses page (same as above)
