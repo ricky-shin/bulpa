@@ -44,7 +44,7 @@
                 ?>
                 </select>
                 <label class="pt-2">Write Your Review</label>
-                <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!" maxlength="3000" required></textarea>
+                <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!" maxlength="3000" minlength="10" required></textarea>
             </div>
             <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
             <br />
