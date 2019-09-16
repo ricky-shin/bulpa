@@ -21,3 +21,4 @@ This project is created and maintained by [Ricky Shin](https://www.rickyshin.com
 
 # WISHLIST
 * Pagination
+* Most popular professor (a/k/a professors with most reviews)
