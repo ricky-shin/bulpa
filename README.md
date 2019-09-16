@@ -16,7 +16,9 @@ This project is created and maintained by [Ricky Shin](https://www.rickyshin.com
 * Zicklin Courses page (same as above)
 * Admin Page (meaning.. authentican 💀, or lazy way: .htaccess or password protect with hashed password in db?), Select * from 'reviews'  where isApproved = 0; | checkbox & submission sets isApproved = 1 [True]. 
 * Google Analytics (easy/low priority)
+* Grab IP address of user submitting review to add to 'review' table. Maybe use  `($_SERVER["REMOTE_ADDR"]`, but can it be trusted?
 
 # WISHLIST
 * Pagination
 * Most popular professor (a/k/a professors with most reviews)
+* Bad reviewers/spammers can be shadowbanned through admin page (they will get "submitted" page but query not run.)
