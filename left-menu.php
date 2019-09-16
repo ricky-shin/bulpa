@@ -1,6 +1,6 @@
 <?php
 echo '
-<div class="col-3 text-center">
+<div class="col-4 text-center">
 <a href="/write-review.php" class="btn btn-outline-primary btn-lg">Write a Review</a>
 <div class="list-group pt-3">
 <a href="/all-professors.php" class="list-group-item list-group-item-action">All Professors</a>

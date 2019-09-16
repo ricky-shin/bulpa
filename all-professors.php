@@ -11,7 +11,7 @@
 <div class="container pt-3">
     <div class="row">
     <?php include 'left-menu.php' ?>
-        <div class="col-9">
+        <div class="col-8">
         <div id="search_area">
             <input type="text" name="professor_search" id="professor_search" class="form-control input-lg" autocomplete="off" placeholder="Type Professor Name" />
         </div>

@@ -10,6 +10,7 @@ if(isset($_POST["query"]))
   WHERE fname LIKE '%".$request."%' 
   OR lname LIKE '%".$request."%' 
   OR department LIKE '%".$request."%'
+  ORDER BY fname ASC
  ";
  $result = mysqli_query($conn, $query);
  $data =array();
@@ -43,7 +44,7 @@ if(isset($_POST["query"]))
   $data = 'No Data Found';
   $html .= '
    <tr>
-    <td colspan="3">No Data Found</td>
+    <td colspan="3">No Professor Found</td>
    </tr>
    ';
  }

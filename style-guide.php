@@ -10,7 +10,7 @@
 <div class="container pt-3">
     <div class="row">
 <?php include 'left-menu.php' ?>
-        <div class="col-9">
+        <div class="col-8">
         <div class="jumbotron">
             <h1 class="display-4">Style Guide</h1>
             <p class="lead"><i>Writing the Perfect Review</i></p>

@@ -11,7 +11,7 @@
 <div class="container pt-3">
     <div class="row">
     <?php include 'left-menu.php' ?>
-        <div class="col-9">
+        <div class="col-8">
             <h2>Write a Review</h2>
         <form>
             <div class="form-row pt-3">
