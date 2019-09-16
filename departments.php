@@ -27,7 +27,7 @@ GROUP BY s.dname ORDER BY num_prof ASC;";
 $result = $conn->query($query);
 
 if ($result->num_rows > 0) {
-    echo "<thead><table class=\"table table-striped table-bordered table-hover\"><tr><th scope=\"col\">Departments</th><th scope=\"col\"># of Professors Reviewed</th></tr></thead>";
+    echo "<thead><table class=\"table table-striped table-bordered table-hover\"><tr><th scope=\"col\">Departments</th><th scope=\"col\"># of Professors</th></tr></thead>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<tr><td>".$row["dname"]."</td><td>".$row["num_prof"]."</td></tr>";

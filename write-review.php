@@ -34,19 +34,14 @@
             <div class="form-group pt-2">
                 <label for="departmentControl">Department</label>
                 <select class="form-control" id="departmentControl">
-                <option>Black and Latino Studies</option>
-                <option>Communication Studies</option>
-                <option>English</option>
-                <option>Fine and Performing Arts</option>
-                <option>History</option>
-                <option>Journalism and the Writing Professions</option>
-                <option>Mathematics</option>
-                <option>Modern Languages and Comparative Literature</option>
-                <option>Natural Sciences</option>
-                <option>Philosophy</option>
-                <option>Political Science</option>
-                <option>Psychology</option>
-                
+                    <?php
+                        include 'config.php';
+
+                    $sql = mysqli_query($conn, "SELECT dname FROM department ORDER BY dname ASC");
+                    while ($row = $sql->fetch_assoc()){
+                    echo "<option value=\"departmentControl1\">" . $row['dname'] . "</option>";
+                }
+?>
                 </select>
             </div>
             <div class="form-group pt-2">
