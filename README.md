@@ -11,6 +11,7 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
+* course.php?id=
 * In write-review.php, implement auto complete used in all-professors.php & fetch.php
 * Let "Department" column in all-professors.php to show dname string, not the assigned internal ID.
 * Pre-Zicklin Courses page (query reviews table where course = the pre-zick courses & isApproved = 1 [True])
@@ -18,6 +19,8 @@ This project is created and maintained by [Ricky Shin](https://www.rickyshin.com
 * Admin Page (meaning.. authentican 💀, or lazy way: .htaccess or password protect with hashed password in db?), Select * from 'reviews'  where isApproved = 0; | checkbox & submission sets isApproved = 1 [True]. 
 * Google Analytics (easy/low priority)
 * Scrape all professors from Baruch directory
+* After site is live: push updated config.php (currently in '.gitignore' to protect reCAPTCHA API key)
+* Privacy Policy informing users of IP collection
 
 # WISHLIST
 * Pagination
