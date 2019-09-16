@@ -6,6 +6,7 @@
 
 <!-- Styles -->
 <link rel="stylesheet" href="main.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 <div id="app">
@@ -30,7 +31,6 @@
                 <label for="course">Course Taken</label>
                 <input type="text" class="form-control" placeholder="e.g. BPL 5100" name="course" id="course" required>
                 </div> 
-
             </div>
             <div class="form-group pt-2">
                 <label for="departmentControl">Department</label>
@@ -42,14 +42,12 @@
                     echo "<option value='".$row['dname']."'>".$row['dname']."</option>";
                 }
                 ?>
-                
                 </select>
                 <label class="pt-2">Write Your Review</label>
-
                 <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!" maxlength="3000" required></textarea>
-                
-
             </div>
+            <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
+            <br />
            <button type="submit" class="btn btn-primary" value="submit">Submit</button>
         </form>
         </div>

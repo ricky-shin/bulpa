@@ -1,5 +1,5 @@
 <?php 
-    $title = 'Submitted!'; // Title of Page
+    $title = 'Failed!'; // Title of Page
     include 'head.php'; 
     include 'nav.php';
 ?>
@@ -13,9 +13,9 @@
 <?php include 'left-menu.php' ?>
         <div class="col-8">
         <div class="jumbotron">
-            <h1 class="display-4">Review Submitted!</h1>
-            <p>Your review has been submitted. Thank You!</p>
-            <p>Please allow some time for your review to be approved. I try my best but I'm also a student 😉</p>
+            <h1 class="display-4">Something Went Wrong!</h1>
+            <p>Your review has not been submitted.</p>
+            <p>Either you're a bot.. or you forgot to check the reCAPTCHA!</p>
              </div>
         </div>
     </div>
