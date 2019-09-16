@@ -18,23 +18,23 @@
             <div class="form-row pt-3">
                 <div class="col">
                 <label for="fname">Professor First Name</label>
-                <input type="text" class="form-control" placeholder="e.g. John" name="fname" id="fname">
+                <input type="text" class="form-control" placeholder="e.g. John" name="fname" id="fname" required>
                 </div> 
                 <div class="col">
                 <label for="fname">Professor Last Name</label>
-                <input type="text" class="form-control" placeholder="e.g. Doe" name="lname" id="lname">
+                <input type="text" class="form-control" placeholder="e.g. Doe" name="lname" id="lname" required>
                 </div>
             </div>
             <div class="form-row pt-3">
                 <div class="col">
                 <label for="course">Course Taken</label>
-                <input type="text" class="form-control" placeholder="e.g. BPL 5100" name="course" id="course">
+                <input type="text" class="form-control" placeholder="e.g. BPL 5100" name="course" id="course" required>
                 </div> 
 
             </div>
             <div class="form-group pt-2">
                 <label for="departmentControl">Department</label>
-                <select class="form-control" id="departmentControl" name="department">
+                <select class="form-control" id="departmentControl" name="department" required>
                     <?php
                     include 'config.php';
                     $sql = mysqli_query($conn, "SELECT dname FROM department ORDER BY dname ASC");
@@ -46,7 +46,7 @@
                 </select>
                 <label class="pt-2">Write Your Review</label>
 
-                <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!"></textarea>
+                <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!" maxlength="3000" required></textarea>
                 
 
             </div>
