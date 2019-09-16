@@ -2,6 +2,8 @@
 
 ![home-page](/home.png?raw=true "bulpa Homepage")
 
+Tech Stack: Bootstrap, php, MySQL
+
 This is the public repo for bulpa, a professor reviewing website created for [Baruch College](http://baruch.cuny.edu).
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com). 
 
