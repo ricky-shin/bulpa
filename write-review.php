@@ -46,7 +46,7 @@
                 </select>
                 <label class="pt-2">Write Your Review</label>
 
-                <textarea class="form-control" form="reviewSub" rows="5" placeholder="Remember to read our Style Guide to ensure approval!"></textarea>
+                <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!"></textarea>
                 
 
             </div>
