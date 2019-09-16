@@ -15,9 +15,6 @@
             <?php
                 include 'config.php';
 
-                if ($conn->connect_error){
-                die("Connection failed: " . $conn->connect_error);
-                } 
                 $id = $_GET['id'];
                 $id = mysqli_real_escape_string($conn,$id);
                 $query = "SELECT `fname`, `lname`, `course`, `review`, UNIX_TIMESTAMP(`timestamp`) as timestamp FROM `reviews` where course LIKE '" . $id . "' ORDER BY Timestamp DESC";
