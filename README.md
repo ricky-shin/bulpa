@@ -4,10 +4,11 @@
 
 Tech Stack: Bootstrap, php, MySQL
 
-This is the public repo for bulpa, a professor reviewing website created for [Baruch College](http://baruch.cuny.edu).
-This project is created and maintained by [Ricky Shin](https://www.rickyshin.com). 
+This is the public repo for bulpa, a professor reviewing website created for [Baruch College](http://baruch.cuny.edu) students. bulpa is not affiliated with the City University of New York or Baruch College.
 
 The concept of reviewing professors is not new (see: Rate My Professor), but having a college-specific site for professor reviews can lead to more accurate reviews.
+
+This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
 * write-review.php textarea not POSTing, why? Also require all fields to be, well, required.
