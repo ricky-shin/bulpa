@@ -1,7 +1,7 @@
 <?php
 echo '
 <div class="col-3 text-center">
-<button type="button" class="btn btn-outline-primary btn-lg">Write a Review</button>
+<a href="/write-review.php" class="btn btn-outline-primary btn-lg">Write a Review</a>
 <div class="list-group pt-3">
 <a href="/all-professors.php" class="list-group-item list-group-item-action">All Professors</a>
 <a href="/departments.php" class="list-group-item list-group-item-action">Departments</a>
