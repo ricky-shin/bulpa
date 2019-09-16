@@ -11,6 +11,7 @@ $lname = mysqli_real_escape_string($conn, $_REQUEST['lname']);
 $course = mysqli_real_escape_string($conn, $_REQUEST['course']);
 $department = mysqli_real_escape_string($conn, $_REQUEST['department']);
 $review = mysqli_real_escape_string($conn, $_REQUEST['review']);
+$submit_ip = mysqli_real_escape_string($conn, $_REQUEST['submit_ip']);
 $isApproved = '0';
 $response = $_POST["g-recaptcha-response"];
 
@@ -34,7 +35,7 @@ if ($captcha_success->success==false) {
   else if ($captcha_success->success==true) {
 
 // Attempt insert query execution
-$sql = "INSERT INTO reviews (fname, lname, course, department, review, isApproved) VALUES ('$fname', '$lname', '$course', '$department', '$review', '$isApproved')";
+$sql = "INSERT INTO reviews (fname, lname, course, department, review, isApproved, submit_ip) VALUES ('$fname', '$lname', '$course', '$department', '$review', '$isApproved', '$submit_ip')";
 if(mysqli_query($conn, $sql)){
   // redirect to submitted page
   echo '<script>window.location.href = "submitted.php";</script>';

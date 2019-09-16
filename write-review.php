@@ -46,6 +46,7 @@
                 <label class="pt-2">Write Your Review</label>
                 <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!" maxlength="3000" minlength="10" required></textarea>
             </div>
+            <input type="hidden" name="submit_ip" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" />
             <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
             <br />
            <button type="submit" class="btn btn-primary" value="submit">Submit</button>

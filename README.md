@@ -11,8 +11,6 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
-* Grab IP address of user submitting review to add to 'review' table. Maybe use  `($_SERVER["REMOTE_ADDR"]`, but can it be trusted?
-* Add submit_ip column (as int) in reviews table
 * In write-review.php, implement auto complete used in all-professors.php & fetch.php
 * Let "Department" column in all-professors.php to show dname string, not the assigned internal ID.
 * Pre-Zicklin Courses page (query reviews table where course = the pre-zick courses & isApproved = 1 [True])
