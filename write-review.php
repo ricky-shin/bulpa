@@ -35,8 +35,7 @@
                 <label for="departmentControl">Department</label>
                 <select class="form-control" id="departmentControl">
                     <?php
-                        include 'config.php';
-
+                    include 'config.php';
                     $sql = mysqli_query($conn, "SELECT dname FROM department ORDER BY dname ASC");
                     while ($row = $sql->fetch_assoc()){
                     echo "<option value=\"departmentControl1\">" . $row['dname'] . "</option>";
