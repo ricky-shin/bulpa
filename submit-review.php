@@ -17,9 +17,9 @@ $isApproved = '0';
 $sql = "INSERT INTO reviews (fname, lname, course, department, review, isApproved) VALUES ('$fname', '$lname', '$course', '$department', '$review', '$isApproved')";
 if(mysqli_query($conn, $sql)){
   // redirect to submitted page
-  echo "Review Submitted!! Thank you 😁";
+  echo '<script>window.location.href = "submitted.php";</script>';
 } else{
-  echo "ERROR: $sql. " . mysqli_error($conn);
+  echo "Uh Oh, Ran into an Error: $sql. " . mysqli_error($conn);
 }
 
 // Close connection

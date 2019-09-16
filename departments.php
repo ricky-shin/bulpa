@@ -20,7 +20,7 @@
 <?php
     $query = "SELECT s.dname,COUNT(*) AS num_prof 
     FROM professors p 
-    inner Join department s on s.ID = p.department 
+    INNER JOIN department s on s.ID = p.department 
     GROUP BY s.dname ORDER BY num_prof ASC;";
     
     $result = $conn->query($query);

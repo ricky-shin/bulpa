@@ -14,7 +14,7 @@
     <?php include 'left-menu.php' ?>
         <div class="col-8">
             <h2>Write a Review</h2>
-        <form action="submit-review.php" method="post">
+        <form action="submit-review.php" id="reviewSub" method="post">
             <div class="form-row pt-3">
                 <div class="col">
                 <label for="fname">Professor First Name</label>
@@ -42,14 +42,15 @@
                     echo "<option value='".$row['dname']."'>".$row['dname']."</option>";
                 }
                 ?>
-
+                
                 </select>
+                <label class="pt-2">Write Your Review</label>
+
+                <textarea class="form-control" form="reviewSub" rows="5" placeholder="Remember to read our Style Guide to ensure approval!"></textarea>
+                
+
             </div>
-            <div class="form-group pt-2">
-                <label for="review">Write Your Review</label>
-                <textarea class="form-control" id="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+           <button type="submit" class="btn btn-primary" value="submit">Submit</button>
         </form>
         </div>
     </div>
