@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Baruch Underground Listing of Professor Ability'; // Title of Page
     include 'head.php'; 
     include 'nav.php';
 ?>

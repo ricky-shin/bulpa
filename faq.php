@@ -1,4 +1,5 @@
 <?php 
+    $title = 'FAQ'; // Title of Page
     include 'head.php'; 
     include 'nav.php';
 ?>

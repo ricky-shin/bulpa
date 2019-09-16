@@ -1,7 +1,9 @@
 <?php 
+    $title = 'Departments'; // Title of Page
     include 'config.php'; 
     include 'head.php';
     include 'nav.php';
+
 ?>
 
 <!-- Styles -->

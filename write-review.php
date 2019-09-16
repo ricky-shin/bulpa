@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Write a Review'; // Title of Page
     include 'head.php';
     include 'nav.php';
 ?>

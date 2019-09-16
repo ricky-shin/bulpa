@@ -1,4 +1,5 @@
 <?php 
+    $title = 'Professor $variable here'; // Title of Page
     include 'head.php'; 
     include 'nav.php';
     ?>

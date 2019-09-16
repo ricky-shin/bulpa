@@ -1,4 +1,5 @@
 <?php 
+    $title = 'All Professors'; // Title of Page
     include 'head.php';
     include 'nav.php';
 ?>
