@@ -11,15 +11,15 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
-* Let "Department" column in all-professors.php to show dname string, not the assigned internal ID.
-* Focus more on querying reviews table for all-professors.php. Or maybe get rid of that all together and focus more on utilizing reviews table? Something to think about.
+* Search box in top right corner POSTing to course.php?id=
+* Clean up unused pages, if any.
+* Think about providing a tree of courses.
+* Permalink for individual review (this is possible as every review has an ID.
+* Admin Page - displays reviews in descending order (by timestamp), wihere isApproved = '0'. Maybe fork [this](https://github.com/henry7720/Verification-Page)?
 * Google Analytics (easy/low priority)
 * After site is live: push updated config.php (currently in '.gitignore' to protect reCAPTCHA API key)
-* Search box in top right corner posting to course.php?id=
-* Clean up unused pages, if any.
-* Admin Page - displays reviews in descending order (by timestamp), wihere isApproved = '0'. Maybe fork [this](https://github.com/henry7720/Verification-Page)?
+
 
 # WISHLIST
 * Pagination
-* Most popular professor (a/k/a professors with most reviews)
 * Bad reviewers/spammers can be shadowbanned through admin page (they will get "submitted" page but query not run.)
