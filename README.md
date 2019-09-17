@@ -11,7 +11,6 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
-* course.php?id=
 * In write-review.php, implement auto complete used in all-professors.php & fetch.php
 * Let "Department" column in all-professors.php to show dname string, not the assigned internal ID.
 * Pre-Zicklin Courses page (query reviews table where course = the pre-zick courses & isApproved = 1 [True])

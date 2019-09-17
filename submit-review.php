@@ -6,9 +6,9 @@ if($conn === false){
 }
 
 
-$fname = mysqli_real_escape_string($conn, $_REQUEST['fname']);
-$lname = mysqli_real_escape_string($conn, $_REQUEST['lname']);
-$course = mysqli_real_escape_string($conn, $_REQUEST['course']);
+$fname = ucwords(mysqli_real_escape_string($conn, $_REQUEST['fname']));
+$lname = ucwords(mysqli_real_escape_string($conn, $_REQUEST['lname']));
+$course = strtoupper(mysqli_real_escape_string($conn, $_REQUEST['course']));
 $department = mysqli_real_escape_string($conn, $_REQUEST['department']);
 $review = mysqli_real_escape_string($conn, $_REQUEST['review']);
 $submit_ip = mysqli_real_escape_string($conn, $_REQUEST['submit_ip']);
