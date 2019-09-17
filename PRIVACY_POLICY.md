@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 **The Information We Collect:**
-This notice applies to all information collected or submitted on the CULPA website. The types of personal information collected at these pages are:
+This notice applies to all information collected or submitted on the BULPA website. The types of personal information collected at these pages are:
 
 IP Addresses
 
