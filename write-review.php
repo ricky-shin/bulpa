@@ -15,7 +15,7 @@
     <?php include 'left-menu.php' ?>
         <div class="col-8">
             <h2>Write a Review</h2>
-        <form action="submit-review.php" id="reviewSub" method="post">
+        <form action="/submit-review.php" id="reviewSub" method="post">
             <div class="form-row pt-3">
                 <div class="col">
                 <label for="fname">Professor First Name</label>

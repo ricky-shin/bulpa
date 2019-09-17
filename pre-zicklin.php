@@ -48,6 +48,7 @@
             <a href="/course.php?id=MTH%202610" class="list-group-item list-group-item-action list-group-item-primary">MTH 2610 – Calculus I</a>
         </div> 
         <br />
+        <p><i>Source: <a href="https://zicklin.baruch.cuny.edu/academic-programs/undergraduate/admissions/">Baruch College, Zicklin School of Business Eligibility and Admission Criteria</a></i></p>
         </div>
     </div>
 </div>

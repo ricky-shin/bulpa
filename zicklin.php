@@ -34,6 +34,7 @@
             <a href="/course.php?id=ACC%203202" class="list-group-item list-group-item-action list-group-item-primary">ACC 3202 – Accounting Information Systems (for Accounting Majors)</a>
         </div> 
         <br />
+        <p><i>Source: <a href="https://zicklin.baruch.cuny.edu/academic-programs/undergraduate/curriculum/">Baruch College, Zicklin School of Business Curriculum</a></i></p>
         </div>
     </div>
 </div>

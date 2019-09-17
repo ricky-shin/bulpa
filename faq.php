@@ -25,7 +25,7 @@
             <p>I have no reason to censor any reviews. However, in an effort to display legitimate (or, seemingly legitimate) reviews, newly submitted reviews are subject to moderation. </p>
             <h4>How are you monetizing this site?</h4>
             <p>I'm not. This website was created as a side project, in fact you can find the source code on <a href="https://github.com/ricky-shin/bulpa">Github</a>.</p> 
-            <h4>I am a Professor and some of the things about me are not true</h4>
+            <h4>I'm a professor, and some things written about me are false 😠!</h4>
             <p>Please e-mail me with the full text of the review and your name. I try my best to moderate all submissions but it's a one man show. <br />
             Fair Warning: the views expressed in the reviews on this site are those of submitters themselves, NOT of me. </p>
             <h4>Who are you?</h4>

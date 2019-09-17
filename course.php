@@ -23,7 +23,7 @@
                 echo '
                 <div class="card">
                 <div class="card-body">
-                <p style="text-align:right; font-style: italic;">Submitted:
+                <p style="text-align:right; font-style: italic;">
                 ';
                 echo date("F j Y", $row['timestamp']);
                 echo '
@@ -32,10 +32,10 @@
                 echo $row['fname'];
                 echo ' ';
                 echo $row['lname'];
-                echo '<p style="text-align:left; font-style: italic;">Course: ';
+                echo '<br />Course: ';
                 echo $row['course'];
                 echo '
-                </p></p>
+                </p>
                 <p>
                 ';
                 echo $row['review'];
