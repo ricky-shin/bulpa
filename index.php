@@ -17,9 +17,9 @@
             <p class="lead"><i>Baruch Undergroound Listing of Professor Ability</i></p>
             <hr class="my-4">
             <p>Welcome to <i>bulpa</i>. This site was created by a Baruch student, for Baruch students. As we all know, professors can make or break your GPA.
-            Why risk your admisson to <a href="https://zicklin.baruch.cuny.edu/academic-programs/undergraduate/admissions/">Zicklin Business School</a>? 😧
+            Why risk your admisson to <a href="https://zicklin.baruch.cuny.edu/academic-programs/undergraduate/admissions/">Zicklin School of Business</a>? 😧
             </p>
-            <p>All reviews are subject to approval.</p>
+            <p>Attend Baruch College the smart way and do some research!!</p>
             <a class="btn btn-primary btn-lg" href="/faq.php" role="button">Learn more</a>
         </div>
         </div>

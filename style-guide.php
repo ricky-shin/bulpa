@@ -12,12 +12,17 @@
 <?php include 'left-menu.php' ?>
         <div class="col-8">
         <div class="jumbotron">
-            <h1 class="display-4">Style Guide</h1>
-            <p class="lead"><i>Writing the Perfect Review</i></p>
+            <p class="lead"><i>Getting your Review Approved</i></p>
             <hr class="my-4">
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ex eget enim commodo iaculis. In ut nisi neque. Sed eget nunc tincidunt, laoreet nisl et, pellentesque felis. Curabitur orci ligula, aliquam vel dui eget, malesuada aliquet purus. Praesent malesuada dapibus pretium. Etiam dictum vestibulum urna at fringilla. Duis tempor volutpat augue in tempor. Donec porttitor lobortis nunc. Vestibulum sagittis ipsum velit, ac ullamcorper lorem pulvinar sed. Curabitur ultricies odio sit amet felis commodo ultrices.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ex eget enim commodo iaculis. In ut nisi neque. Sed eget nunc tincidunt, laoreet nisl et, pellentesque felis. Curabitur orci ligula, aliquam vel dui eget, malesuada aliquet purus. Praesent malesuada dapibus pretium. Etiam dictum vestibulum urna at fringilla. Duis tempor volutpat augue in tempor. Donec porttitor lobortis nunc. Vestibulum sagittis ipsum velit, ac ullamcorper lorem pulvinar sed. Curabitur ultricies odio sit amet felis commodo ultrices.</p>
+            <p>Here are some very simple guidelines for your submissions.</p>
+            <ul class="list-unstyled">
+                <ul>
+                    <li>Find the perfect balance. Try to write more than one sentence, but you also don't need to write a novel.</li>
+                    <li>Be specific. <i>Why</i> was Professor X a great professor?</li>
+                    <li>Consider mentioning if textbook was required when you took the course. However please <u>don't</u> share the textbook link here.</li>
+                    <li>Avoid libel. In fact, any reviews with libel will not be approved (definition of libel <a href="https://legaldictionary.net/libel/">here</a>).</li>
+                </ul>
+            </ul>
         </div>
         </div>
     </div>

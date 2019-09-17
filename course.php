@@ -41,9 +41,6 @@
                 echo $row['review'];
                 echo '</p>';
                 echo '</div></div><br />';
-                                //echo '<p style="text-align:left>';
-                //echo $row['course'];
-                //echo '</p>';
                 }
             ?>
         </div>
