@@ -6,9 +6,6 @@
 
 ?>
 
-<!-- Styles -->
-<link rel="stylesheet" href="main.css">
-</head>
 <body>
 <div id="app">
 <div class="container pt-3">
@@ -17,19 +14,6 @@
         <div class="col-8">
         <h2>Pre-Zicklin Courses</h2>
         <br />
-        <!--
-            Baruch College Pre-Zicklin Requirements:
-            COM 1010 Speech Communication
-            ENG 2100 Writing I
-            ENG 2150 Writing II
-            ACC 2101 Principles of Accounting
-            CIS 2200 Introduction to Information Systems and Technologies
-            ECO 1001 Microeconomics
-            ECO 1002 Macroeconomics
-            LAW 1101 Fundamentals of Business Law
-            Calculus - MTH 2205/2207/2610 (or equivalent)
-            STA 2000 Business Statistics I
-         -->
          <div class="list-group">
             <a href="/course.php?id=COM%201010" class="list-group-item list-group-item-action list-group-item-primary">COM 1010 - Speech Communication</a>
             <a href="/course.php?id=ENG%202100" class="list-group-item list-group-item-action list-group-item-primary">ENG 2100 - Writing I</a>

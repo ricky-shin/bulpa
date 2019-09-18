@@ -1,12 +1,10 @@
-<!doctype html>
-<head>
-<?php include 'head.php'; ?>
-<!-- Styles -->
-<link rel="stylesheet" href="main.css">
-</head>
+<?php 
+    $title = 'Style Guide'; // Title of Page
+    include 'head.php'; 
+    include 'nav.php';
+?>
 <body>
 <div id="app">
-<?php include 'nav.php'; ?>
 <div class="container pt-3">
     <div class="row">
 <?php include 'left-menu.php' ?>

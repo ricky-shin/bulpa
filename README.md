@@ -11,11 +11,11 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
+* Secure mod.php & mod-approve.php
 * Search box in top right corner POSTing to course.php?id=
 * Clean up unused pages, if any.
 * Think about providing a tree of courses.
 * Permalink for individual review (this is possible as every review has an ID.
-* Admin Page - displays reviews in descending order (by timestamp), wihere isApproved = '0'. Maybe fork [this](https://github.com/henry7720/Verification-Page)?
 * Google Analytics (easy/low priority)
 * After site is live: push updated config.php (currently in '.gitignore' to protect reCAPTCHA API key)
 
@@ -23,3 +23,4 @@ This project is created and maintained by [Ricky Shin](https://www.rickyshin.com
 # WISHLIST
 * Pagination
 * Bad reviewers/spammers can be shadowbanned through admin page (they will get "submitted" page but query not run.)
+

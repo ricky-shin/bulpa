@@ -1,21 +1,22 @@
 <?php 
-    $title = 'Course'; // Title of Page
+    $title = 'Moderate Reviews'; // Title of Page
     include 'head.php'; 
     include 'nav.php';
-    ?>
-
+?>
 <body>
 <div id="app">
 <div class="container pt-3">
     <div class="row">
-    <?php include 'left-menu.php' ?>
+<?php include 'left-menu.php' ?>
         <div class="col-8">
-            <?php
+            <br />
+        <h2>Displaying All Pending Reviews</h2>
+        <?php
                 include 'config.php';
 
                 $id = $_GET['id'];
                 $id = mysqli_real_escape_string($conn,$id);
-                $query = "SELECT `fname`, `lname`, `course`, `review`, UNIX_TIMESTAMP(`timestamp`) AS timestamp FROM `reviews` WHERE course LIKE '" . $id . "' AND isApproved ='1' ORDER BY Timestamp DESC";
+                $query = "SELECT `fname`, `lname`, `course`, `review`, `id`, UNIX_TIMESTAMP(`timestamp`) AS timestamp FROM `reviews` WHERE isApproved ='0' ORDER BY Timestamp ASC";
                 $result = mysqli_query($conn,$query);
                 while($row = mysqli_fetch_array($result)) {
                 echo '
@@ -32,15 +33,25 @@
                 echo $row['lname'];
                 echo '<br />Course: ';
                 echo $row['course'];
+                echo '<br />Review ID: ';
+                echo $row['id'];
                 echo '
                 </p>
                 <p>
                 ';
                 echo $row['review'];
                 echo '</p>';
+                echo '    
+                <form method="POST" action="/mod-approve.php?id='.$row['id'].'"><input type="submit" name="nw_update" value="Approve"
+                '; 
+                echo '\'"/>';
+
+                echo '</form>';
                 echo '</div></div><br />';
                 }
             ?>
+
+
         </div>
     </div>
 </div>

@@ -5,10 +5,6 @@
     include 'nav.php';
 
 ?>
-
-<!-- Styles -->
-<link rel="stylesheet" href="main.css">
-</head>
 <body>
 <div id="app">
 <div class="container pt-3">

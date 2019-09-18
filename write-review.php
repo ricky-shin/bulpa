@@ -3,11 +3,7 @@
     include 'head.php';
     include 'nav.php';
 ?>
-
-<!-- Styles -->
-<link rel="stylesheet" href="main.css">
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-</head>
 <body>
 <div id="app">
 <div class="container pt-3">
