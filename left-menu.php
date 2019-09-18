@@ -7,8 +7,8 @@ echo '
 <a href="/pre-zicklin.php" class="list-group-item list-group-item-action">Pre-Zicklin Courses</a>
 <a href="/zicklin.php" class="list-group-item list-group-item-action">Zicklin Courses</a>
 </div>
-<p class="pt-1">&copy; <a href="https://www.rickyshin.com" target="_blank">Ricky Shin</a> | 
-<a href="https://github.com/ricky-shin/bulpa/blob/master/PRIVACY_POLICY.md" target="_blank">Privacy Policy</a></p>
+<p class="pt-1">&copy; <a href="https://www.bulpa.info">bulpa</a> | 
+<a href="/privacy.php">Privacy Policy</a></p>
 </div>
 ';
 ?>
