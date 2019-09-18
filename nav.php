@@ -21,9 +21,6 @@ echo '
                                 <a class="nav-link" href="mailto:admin@bulpa.info">Contact</a>
                             </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                    <a href="/all-professors.php" class="btn btn-outline-primary my-2 my-sm-0">Search a Professor</a>
-                  </form>
                 </div>
             </div>
         </nav>

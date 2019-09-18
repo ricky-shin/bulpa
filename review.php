@@ -1,22 +1,21 @@
 <?php 
-    $title = 'Course'; // Title of Page
+    $title = 'Moderate Reviews'; // Title of Page
     include 'head.php'; 
     include 'nav.php';
-    ?>
-
+?>
 <body>
 <div id="app">
 <div class="container pt-3">
     <div class="row">
-    <?php include 'left-menu.php' ?>
+<?php include 'left-menu.php' ?>
         <div class="col-8">
-            <h2>Displaying Reviews</h2>
-            <?php
+        <h2>Displaying Review</h2>
+        <?php
                 include 'config.php';
 
                 $id = $_GET['id'];
                 $id = mysqli_real_escape_string($conn,$id);
-                $query = "SELECT `fname`, `id`, `lname`, `course`, `review`, UNIX_TIMESTAMP(`timestamp`) AS timestamp FROM `reviews` WHERE course LIKE '" . $id . "' AND isApproved ='1' ORDER BY Timestamp DESC";
+                $query = "SELECT `fname`, `lname`, `course`, `review`, `id`, UNIX_TIMESTAMP(`timestamp`) AS timestamp FROM `reviews` WHERE `id` = ' " . $id . " ' " ;
                 $result = mysqli_query($conn,$query);
                 while($row = mysqli_fetch_array($result)) {
                 echo '
@@ -42,9 +41,12 @@
                  <br /><a href="/review.php?id='.$row['id'].'">[Permalink]</a>
                  '; 
                 echo '</p>';
+                echo '</form>';
                 echo '</div></div><br />';
                 }
             ?>
+
+
         </div>
     </div>
 </div>

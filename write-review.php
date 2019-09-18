@@ -11,7 +11,7 @@
     <?php include 'left-menu.php' ?>
         <div class="col-8">
             <h2>Write a Review</h2>
-        <form action="/submit-review.php" id="reviewSub" method="post">
+        <form action="/submit-review.php" id="reviewSub" method="POST">
             <div class="form-row pt-3">
                 <div class="col">
                 <label for="fname">Professor First Name</label>
@@ -40,7 +40,7 @@
                 ?>
                 </select>
                 <label class="pt-2">Write Your Review</label>
-                <textarea class="form-control" form="reviewSub" name="review" rows="5" placeholder="Remember to read our Style Guide to ensure approval!" maxlength="3000" minlength="10" required></textarea>
+                <textarea class="form-control" form="reviewSub" name="review" rows="5" maxlength="3000" minlength="10" required></textarea>
             </div>
             <input type="hidden" name="submit_ip" value="<?php echo $_SERVER['REMOTE_ADDR']; ?>" />
             <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
