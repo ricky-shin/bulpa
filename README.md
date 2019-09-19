@@ -11,10 +11,8 @@ The concept of reviewing professors is not new (see: Rate My Professor), but hav
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
-* Clean up unused pages, if any.
 * Most Recent Review Page (add to left nav as well)
 * Secure mod.php & mod-approve.php
-* Google Analytics (easy/low priority)
 * After site is live: push updated config.php (currently in '.gitignore' to protect reCAPTCHA API key)
 
 
