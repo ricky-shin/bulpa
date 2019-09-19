@@ -4,6 +4,7 @@ echo '
 <a href="/write-review.php" class="btn btn-outline-primary btn-lg">Write a Review</a>
 <div class="list-group pt-3">
 <a href="/course-search.php" class="list-group-item list-group-item-action">Course Search</a>
+<a href="/professor-search.php" class="list-group-item list-group-item-action">Professor Search</a>
 <a href="/pre-zicklin.php" class="list-group-item list-group-item-action">Pre-Zicklin Courses</a>
 <a href="/zicklin.php" class="list-group-item list-group-item-action">Zicklin Courses</a>
 </div>

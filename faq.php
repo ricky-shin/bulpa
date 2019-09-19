@@ -14,7 +14,7 @@
             <p class="lead"><i>Frequently Asked Questions</i></p>
             <hr class="my-4">
             <h4>Who is this for?</h4>
-            <p><a href="/index.php">bulpa</a> was created for students attending <a href="http://baruch.cuny.edu/">Baruch College</a>, in an effort to consolidate course and professor reviews found on multiple platforms.</p>    
+            <p><i><a href="/index.php">bulpa</a></i> was created in an effort to provide a dedicated professor and course review platform for  <a href="http://baruch.cuny.edu/">Baruch College</a> students.</p>    
             <h4>What kinda name is <i>bulpa</i> !?</h4>
             <p>I actually ripped it off from CULPA, which is Columbia Universtiy's professor review site.</p>
             <h4>Can I trust the reviews on this site?</h4>
@@ -27,7 +27,7 @@
             <p>Please e-mail me with the [permalink] of the review (found under every review) and your name. I try my best to moderate all submissions but it's a one man show. <br />
             Fair Warning: the views expressed in the reviews on this site are those of submitters themselves, NOT of me. </p>
             <h4>Who are you?</h4>
-            <p>I am a CIS student at Baruch College.</p>
+            <p>I am a CIS student at Baruch College. I saw an opportunity to create a side project for something that I care about. Avoiding bad professors.</p>
             
         </div>
         </div>
