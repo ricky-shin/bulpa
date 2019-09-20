@@ -27,7 +27,7 @@
             <p>Please e-mail me with the [permalink] of the review (found under every review) and your name. I try my best to moderate all submissions but it's a one man show. <br />
             Fair Warning: the views expressed in the reviews on this site are those of submitters themselves, NOT of me. </p>
             <h4>Who are you?</h4>
-            <p>I am a CIS student at Baruch College. I saw an opportunity to create a side project for something that I care about. Avoiding bad professors.</p>
+            <p>I am a CIS student at Baruch College. </p>
             
         </div>
         </div>

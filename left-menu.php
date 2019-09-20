@@ -6,7 +6,7 @@ echo '
 <a href="/course-search.php" class="list-group-item list-group-item-action">Course Search</a>
 <a href="/professor-search.php" class="list-group-item list-group-item-action">Professor Search</a>
 <a href="/pre-zicklin.php" class="list-group-item list-group-item-action">Pre-Zicklin Courses</a>
-<a href="/zicklin.php" class="list-group-item list-group-item-action">Zicklin Courses</a>
+<a href="/zicklin.php" class="list-group-item list-group-item-action">Required Zicklin Courses</a>
 </div>
 <p class="pt-1">&copy; <a href="https://www.bulpa.info">bulpa</a> | 
 <a href="/privacy.php">Privacy Policy</a></p>

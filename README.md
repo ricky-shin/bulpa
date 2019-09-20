@@ -8,12 +8,12 @@ This is the public repo for bulpa, a professor reviewing website created for [Ba
 
 The concept of reviewing professors is not new (see: Rate My Professor), but having a (relatively) smaller dataset makes it easier to maintain more accurate professor names and reviews.
 
+Currently live at [bulpa.info](https://www.bulpa.info/).
 This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
 
 # TODO
 * Most Recent Review Page (add to left nav as well)
-* Secure mod.php & mod-approve.php
-* After site is live: push updated config.php (currently in '.gitignore' to protect reCAPTCHA API key)
+
 
 
 # WISHLIST
