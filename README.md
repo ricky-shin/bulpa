@@ -17,6 +17,7 @@ This project is created and maintained by [Ricky Shin](https://www.rickyshin.com
 
 
 # WISHLIST
+* Recommend a professor based on certain keywords when users search for a course.
 * Pagination
 * Bad reviewers/spammers can be shadowbanned through admin page (they will get "submitted" page but query not run.)
 
