@@ -1,6 +1,6 @@
 # Baruch Underground Listing of Professor Ability
 
-![home-page](/home_screen.png?raw=true "bulpa Homepage")
+![home-page](/bulpa_home.png?raw=true "bulpa Homepage")
 
 Tech Stack: Bootstrap, php, MySQL
 
