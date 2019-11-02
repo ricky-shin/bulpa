@@ -1,3 +1,4 @@
 config.php
 .htaccess
 main_db.sql
+phpmyadmin/
