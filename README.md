@@ -11,7 +11,7 @@ During the 5 months the website was live at [https://www.bulpa.info](https://www
 * 942 Users Visited (85% from NY)
 * 9511 Pages Viewed
 * 200+ Professors Anonymously Reviewed
-Source: Google Analytics. This was achieved through word of mouth.
+Source: [Google Analytics](imgs/google-analytics.png). This was achieved through word of mouth.
 
 # Key Features
 * reCAPTCHA: Implementing Google's reCAPTCHA led to 0 spam reviews being posted
