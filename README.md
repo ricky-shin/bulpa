@@ -7,7 +7,7 @@ Tech Stack: Bootstrap, php, MySQL
 This project was created during my time at [Baruch College](http://baruch.cuny.edu) with the intention of providing a platform where students can submit anonymous reviews of Baruch College professors and courses. The concept of reviewing professors is not new (see: Rate My Professor), but having a (relatively) smaller dataset made it easier to maintain more accurate professor names and reviews. I've since transferred to Columbia University to study Computer Science; thus this project will no longer be maintained.
 
 # Highlights
-During the 5 months the website was live at [https://www.bulpa.info](https://www.bulpa.info/), there was a total of:
+During the period the website was live at [https://www.bulpa.info](https://www.bulpa.info/), there was a total of:
 * 942 Users Visited (85% from NY)
 * 9,511 Pages Viewed
 * 200+ Professors Anonymously Reviewed
