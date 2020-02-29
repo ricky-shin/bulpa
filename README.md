@@ -18,6 +18,6 @@ Source: [Google Analytics](https://raw.githubusercontent.com/ricky-shin/bulpa/ma
 * reCAPTCHA: [Implementing](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/write-review.png) Google's reCAPTCHA led to 0 spam reviews being posted
 * Web-based Admin Panel: This allowed me to manually approve pending reviews without having to ssh into the server
 * Mobile Compatible: Building Mobile First proved to be useful, as 47% of users were [mobile users](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/google-analytics-2.png)
-* Kernal-based Virtual Machine: The website was hosted on a Digital Ocean droplet, with all DevOps functions [handled](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/ssh.png) by yours truly.
+* Kernal-based Virtual Machine: The website was hosted on a Digital Ocean virtual machine, with all DevOps functions [handled](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/ssh.png) by yours truly.
 
 This project was not affiliated with the City University of New York or Baruch College.
