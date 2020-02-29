@@ -4,20 +4,18 @@
 
 Tech Stack: Bootstrap, php, MySQL
 
-This is the public repo for bulpa, a professor reviewing website created for [Baruch College](http://baruch.cuny.edu) students. bulpa is not affiliated with the City University of New York or Baruch College.
+This project was created during my time at [Baruch College](http://baruch.cuny.edu) with the intention of providing a platform where students can submit anonymous reviews of Baruch College professors and courses. The concept of reviewing professors is not new (see: Rate My Professor), but having a (relatively) smaller dataset made it easier to maintain more accurate professor names and reviews. I've since transferred to Columbia University to study Computer Science; thus this project will no longer be maintained.
 
-The concept of reviewing professors is not new (see: Rate My Professor), but having a (relatively) smaller dataset makes it easier to maintain more accurate professor names and reviews.
+# Highlights
+During the 5 months the website was live at [https://www.bulpa.info](https://www.bulpa.info/), there was a total of:
+* 942 Users Visited (85% from NY)
+* 9511 Pages Viewed
+* 200+ Professors Anonymously Reviewed
+Source: Google Analytics. This was achieved through word of mouth.
 
-Currently live at [bulpa.info](https://www.bulpa.info/).
-This project is created and maintained by [Ricky Shin](https://www.rickyshin.com).
+# Key Features
+* reCAPTCHA: Implementing Google's reCAPTCHA led to 0 spam reviews being posted
+* Web-based Admin Panel: This allowed me to manually approve pending reviews without having to ssh into the server
+* Mobile Compatible: Building Mobile First proved to be useful, as 47% of users were mobile users
 
-# TODO
-* Most Recent Review Page (add to left nav as well)
-
-
-
-# WISHLIST
-* Recommend a professor based on certain keywords when users search for a course.
-* Pagination
-* Bad reviewers/spammers can be shadowbanned through admin page (they will get "submitted" page but query not run.)
-
+This project was not affiliated with the City University of New York or Baruch College.
