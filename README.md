@@ -11,11 +11,12 @@ During the 5 months the website was live at [https://www.bulpa.info](https://www
 * 942 Users Visited (85% from NY)
 * 9511 Pages Viewed
 * 200+ Professors Anonymously Reviewed
-Source: [Google Analytics](imgs/google-analytics.png). This was achieved through word of mouth.
+
+Source: [Google Analytics](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/google-analytics.png). This was achieved through word of mouth.
 
 # Key Features
 * reCAPTCHA: Implementing Google's reCAPTCHA led to 0 spam reviews being posted
 * Web-based Admin Panel: This allowed me to manually approve pending reviews without having to ssh into the server
-* Mobile Compatible: Building Mobile First proved to be useful, as 47% of users were mobile users
+* Mobile Compatible: Building Mobile First proved to be useful, as 47% of users were [mobile users](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/google-analytics-2.png)
 
 This project was not affiliated with the City University of New York or Baruch College.
