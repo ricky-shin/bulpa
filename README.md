@@ -10,7 +10,7 @@ This project was created during my time at [Baruch College](http://baruch.cuny.e
 During the period the website was live at [https://www.bulpa.info](https://www.bulpa.info/), there was a total of:
 * 942 Users Visited (85% from NY)
 * 9,511 Pages Viewed
-* 200+ Professors Anonymously Reviewed
+* 200+ Professors & Courses Anonymously Reviewed
 
 Source: [Google Analytics](https://raw.githubusercontent.com/ricky-shin/bulpa/master/imgs/google-analytics.png). This was achieved through word of mouth.
 
